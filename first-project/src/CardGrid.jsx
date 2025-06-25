@@ -3,7 +3,7 @@ import DataCard from "./DataCard";
 
 export default function CardGrid({jsondata}) {
   return (
-    <Grid container rowSpacing={1} columnSpacing={{ xs: 1, sm: 2, md: 3 }}>
+    <Grid container rowSpacing={1} columnSpacing={{ xs: 1, sm: 2, md: 3, lg: 2 }}>
       {jsondata.map((element, index) => (
         <Grid size={3}>
           <DataCard

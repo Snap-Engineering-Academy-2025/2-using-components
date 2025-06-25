@@ -5,6 +5,7 @@ import "./App.css";
 
 import CardGrid from "./cardGrid";
 import teas from "./teas.json";
+import CustomButton from "./CustomButton";
 
 function App() {
   return (
@@ -27,6 +28,8 @@ function App() {
           Why isn't the CSS working?
         </Typography>
       </Container>
+      
+      <CustomButton />
 
       <CardGrid jsondata={teas}/>
     </>
