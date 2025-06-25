@@ -1,6 +1,7 @@
 html body {
   display: block;
   place-items: normal;
+  background: whitesmoke
 }
 
 .characterButton {
